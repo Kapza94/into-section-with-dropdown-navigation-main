@@ -6,22 +6,44 @@ body{
     padding: 0%;
 }
 
+.logo{
+    width: 84px;
+    height: 27px;
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 20px
+    margin: 3rem 10rem;
 }
 
 .block-left-main{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: column;
-    margin-left: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+    height: 100vh;
+}
+
+.block-right-img img{
+width: 60rem;
 }
 
 ol{
-    display: flex;
     list-style: none;
-    justify-content: space-between;
+    display: flex;
+    margin-left: 0px;
+    font-size: large;
+}
+
+.block-big{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+h1{
+    font-size: 100px;
 }
