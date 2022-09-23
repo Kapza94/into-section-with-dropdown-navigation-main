@@ -1,49 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Poppins:wght@200;400;600&display=swap');
 
-body{
+body {
     font-family: 'Epilogue', sans-serif;
     margin: 0%;
     padding: 0%;
 }
 
-.logo{
-    width: 84px;
-    height: 27px;
-}
 
-.nav-bar{
+.big-block-daddy{
+    width: 1440px;
+    margin: 0 auto;
+}
+.nav-bar {
     display: flex;
     justify-content: space-between;
-    margin: 3rem 10rem;
 }
 
-.block-left-main{
+.nav-left {
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+.block-left-main {
+    display: flex;
     flex-direction: column;
     margin-right: 150px;
-    margin-left: 50px;
-    height: 100vh;
+    margin-left: 100px;
+    align-items: flex-start;
 }
 
-.block-right-img img{
-width: 60rem;
+.block-right-img img {
+    width: 60rem;
 }
 
-ol{
+.block-left{
+    background-color: none;
+}
+
+ol {
     list-style: none;
     display: flex;
     margin-left: 0px;
     font-size: large;
+    text-decoration: none;
 }
 
-.block-big{
-display: flex;
-align-items: center;
-justify-content: center;
+ol li a {
+    display: block;
+    padding: 2rem;
+}
+
+.block-big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-h1{
-    font-size: 100px;
+h1 {
+    font-size: 80px;
 }
+
+p {
+    font-size: 25px;
+}
+
+.learn-more {
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+   background-color: black;
+   border-radius: 15px;
+   padding: 15px 20px;
+}
+
