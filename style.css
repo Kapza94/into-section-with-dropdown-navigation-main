@@ -5,6 +5,10 @@
 display: none;
 }
 
+.logomobile{
+    padding-top: 1.3rem;
+    padding-left: 1.3rem;
+}
 .block-right-img-mobile{
     display:block !important;
     width: 100%;
@@ -50,6 +54,7 @@ display: none;
 
 .title-container{
     width: 100%;
+    display: inline-block !important;
 }
 
 .maintext{
